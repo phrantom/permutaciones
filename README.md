@@ -11,7 +11,7 @@
 
 
 ## PERMUTACIONES Y COMBINACIONES:
-------------------------------
+
 
 Generalmente se utilizan las palabras combinacion y permutacion como sinonimos, algo totalmente equivocado, asi que para 
 que queden claros algunos conceptos paso a dejar algunas definiciones:
@@ -34,7 +34,7 @@ Dentro de las permutaciones hay de 2 tipos, con repeticion de elementos y sin re
 
 		
 ## PROGRAMA:
---------
+
 Este programa nos dara la cantidad que permutaciones disponibles para cierta cantidad de elementos y la longitud del mismo 
 
 
@@ -42,15 +42,16 @@ Este programa nos dara la cantidad que permutaciones disponibles para cierta can
 
 
 ### REQUISITOS:
-----------
+
  
-``` python3:	apt-get install python3 ```
+python3:
+	`apt-get install python3`
 
 
 
 
 ### MODO DE USO:
------------
+
 ```
 python3 permuta.py [TIPO DE PERMUTACION] [CARACTERES] [LARGO DE CADENA]
 
@@ -76,7 +77,7 @@ python3 permuta.py [TIPO DE PERMUTACION] [CARACTERES] [LARGO DE CADENA]
 
 
 ### EJEMPLOS DE USO:
----------------
+
 
 Si queremos ver la cantidad de permutaciones con numeros, letras minusculas y mayusculas en una longitud de 8 caracteres:
 
