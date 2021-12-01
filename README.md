@@ -86,6 +86,6 @@ Si queremos ver la cantidad de permutaciones con numeros, letras minusculas y ma
 
 Si queremos ver la cantidad de permutaciones entre 10 elementos y con una longitud de 5, usaremos el siguiente comando: 
 
-        `python3 permuta.py -c 10 5`
+`python3 permuta.py -c 10 5`
 
 
