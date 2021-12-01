@@ -1,14 +1,16 @@
+```
     ____  __________  __  _____  ___________   ______________  _   _____________	
    / __ \/ ____/ __ \/  |/  / / / /_  __/   | / ____/  _/ __ \/ | / / ____/ ___/	
   / /_/ / __/ / /_/ / /|_/ / / / / / / / /| |/ /    / // / / /  |/ / __/  \__ \		
  / ____/ /___/ _, _/ /  / / /_/ / / / / ___ / /____/ // /_/ / /|  / /___ ___/ /		
 /_/   /_____/_/ |_/_/  /_/\____/ /_/ /_/  |_\____/___/\____/_/ |_/_____//____/		
                                                          v1.0   by phr4nt0m		
+```
+
+# Permutaciones 
 
 
-
-
-PERMUTACIONES Y COMBINACIONES:
+## PERMUTACIONES Y COMBINACIONES:
 ------------------------------
 
 Generalmente se utilizan las palabras combinacion y permutacion como sinonimos, algo totalmente equivocado, asi que para 
@@ -31,7 +33,7 @@ Ejemplo:
 Dentro de las permutaciones hay de 2 tipos, con repeticion de elementos y sin repeticion. 
 
 		
-PROGRAMA:
+## PROGRAMA:
 --------
 Este programa nos dara la cantidad que permutaciones disponibles para cierta cantidad de elementos y la longitud del mismo 
 
@@ -39,17 +41,17 @@ Este programa nos dara la cantidad que permutaciones disponibles para cierta can
 
 
 
-REQUISITOS:
+### REQUISITOS:
 ----------
  
-python3:	apt-get install python3
+``` python3:	apt-get install python3 ```
 
 
 
 
-MODO DE USO:
+### MODO DE USO:
 -----------
-
+```
 python3 permuta.py [TIPO DE PERMUTACION] [CARACTERES] [LARGO DE CADENA]
 
         [ TIPO DE PERMUTACION ]
@@ -69,21 +71,21 @@ python3 permuta.py [TIPO DE PERMUTACION] [CARACTERES] [LARGO DE CADENA]
                 [0..99999] Numero entero de caracteres a permutar.
 
         -h Ayuda
+```
 
 
 
-
-EJEMPLOS DE USO:
+### EJEMPLOS DE USO:
 ---------------
 
 Si queremos ver la cantidad de permutaciones con numeros, letras minusculas y mayusculas en una longitud de 8 caracteres:
 
-       python3 permuta.py -c nmM 8
+`python3 permuta.py -c nmM 8`
 
 
 
 Si queremos ver la cantidad de permutaciones entre 10 elementos y con una longitud de 5, usaremos el siguiente comando: 
 
-        python3 permuta.py -c 10 5
+        `python3 permuta.py -c 10 5`
 
 
